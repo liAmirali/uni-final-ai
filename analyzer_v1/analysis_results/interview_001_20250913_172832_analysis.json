@@ -1,0 +1,217 @@
+{
+  "interview_id": "interview_001_20250913_172832",
+  "timestamp": "2025-09-13T17:31:06.183590",
+  "total_questions": 10,
+  "analyses": [
+    {
+      "question_number": 1,
+      "question": "مهم‌ترین چالش‌تون در این دوران چیه؟",
+      "answer": "مهم‌ترین چالش دوران اینه که حقوق‌ها نسبت به خرج‌های خانواده خیلی ناچیزه. این زندگی سخته.",
+      "analysis": {
+        "unhealthy": [
+          {
+            "aspect": "emotion",
+            "subject": "نارضایتی",
+            "based_on_answer": "حقوق‌ها نسبت به خرج‌های خانواده خیلی ناچیزه.",
+            "reasoning": "بیان اینکه 'حقوق‌ها نسبت به خرج‌های خانواده خیلی ناچیزه' یک ابراز مستقیم از نارضایتی نسبت به وضعیت مالی موجود است. این نشان‌دهنده عدم رضایت از شرایط زندگی و عدم تطابق واقعیت با انتظارات یا نیازهاست که یک هیجان منفی محسوب می‌شود."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "اندوه",
+            "based_on_answer": "این زندگی سخته.",
+            "reasoning": "عبارت 'این زندگی سخته' بیانگر احساس سنگینی، دشواری و بار عاطفی است که می‌تواند به عنوان اندوه، پریشانی یا ناخشنودی کلی از شرایط زندگی تفسیر شود. این یک هیجان منفی است که در پاسخ به چالش‌های مطرح شده بروز یافته است."
+          },
+          {
+            "aspect": "belief",
+            "subject": "سطحی نگری و عدم توسعه دارایی",
+            "based_on_answer": "مهم‌ترین چالش دوران اینه که حقوق‌ها نسبت به خرج‌های خانواده خیلی ناچیزه.",
+            "reasoning": "تمرکز انحصاری کاربر بر 'حقوق‌ها' (درآمد مادی) در مقابل 'خرج‌های خانواده' به عنوان مهم‌ترین چالش، نشان‌دهنده یک نگرش محدود و سطحی به مفهوم 'دارایی' است. در تعریف سلامت معنوی سالمندان، 'توسعه معنای دارایی' شامل جامع‌نگری دستاوردهای مادی و معنوی و اولویت‌گذاری ارزش‌های غیرمادی است. عدم اشاره به هرگونه دارایی غیرمادی (مانند سلامت، خانواده، تجربیات، حکمت) در بیان چالش اصلی، نشانگر عدم توسعه این باور سالم و در نتیجه، قرار گرفتن در وضعیت ناسالم 'سطحی‌نگری و عدم توسعه دارایی' است."
+          }
+        ],
+        "healthy": [
+          {
+            "aspect": "emotion",
+            "subject": "شناخت هیجانات خود",
+            "based_on_answer": "مهم‌ترین چالش دوران اینه که حقوق‌ها نسبت به خرج‌های خانواده خیلی ناچیزه. این زندگی سخته.",
+            "reasoning": "با وجود منفی بودن هیجانات بیان شده، توانایی کاربر در شناسایی و بیان صریح 'مهم‌ترین چالش' و همچنین ابراز تأثیر هیجانی آن ('این زندگی سخته')، نشان‌دهنده سطح قابل قبولی از خودآگاهی هیجانی است. این فرد قادر است احساسات خود (هرچند منفی) را بشناسد و آن را بیان کند، که خود یکی از مؤلفه‌های سلامت هیجانی است و نشان می‌دهد فرد هیجانات خود را سرکوب نمی‌کند یا از آن بی‌خبر نیست."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 2,
+      "question": "به نظرتون اگر وضعیت مالی به گونه‌ای بود که مجبور نبودید کار کنید، چه می‌شد؟",
+      "answer": "الان توی این وضعیت هستیم. یعنی اگر شهری که زندگی می‌کنیم، امکانات و وضع مالی بهتری داشت، شاید وضعیت بهتری داشتیم.",
+      "analysis": {
+        "unhealthy": [
+          {
+            "aspect": "emotion",
+            "subject": "نارضایتی",
+            "based_on_answer": "اگر شهری که زندگی می‌کنیم، امکانات و وضع مالی بهتری داشت، شاید وضعیت بهتری داشتیم.",
+            "reasoning": "کاربر با بیان اینکه 'شاید وضعیت بهتری داشتیم' اگر شرایط مالی و امکانات شهر بهتر بود، به طور ضمنی نشان می‌دهد که از وضعیت فعلی خود رضایت کامل ندارد و آرزومند شرایط مطلوب‌تری است. این بیان، حاکی از نوعی نارضایتی از وضعیت موجود است."
+          },
+          {
+            "aspect": "belief",
+            "subject": "محدود دیدن معنای استقلال",
+            "based_on_answer": "اگر شهری که زندگی می‌کنیم، امکانات و وضع مالی بهتری داشت، شاید وضعیت بهتری داشتیم.",
+            "reasoning": "کاربر 'وضعیت بهتر' را کاملاً به عوامل بیرونی و مادی (امکانات و وضع مالی شهر) مرتبط می‌داند و هیچ اشاره‌ای به توانمندی‌های درونی، انعطاف‌پذیری شخصی یا بازتعریف معنای استقلال در ابعاد غیرمادی نمی‌کند. این نشان‌دهنده یک دیدگاه محدود نسبت به استقلال و رفاه است که بیش از حد به شرایط محیطی و مادی وابسته است."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "انفعال و وابستگی به سبک قدیم با وجود اثبات ناکارآمدی",
+            "based_on_answer": "الان توی این وضعیت هستیم. یعنی اگر شهری که زندگی می‌کنیم، امکانات و وضع مالی بهتری داشت، شاید وضعیت بهتری داشتیم.",
+            "reasoning": "کاربر در پاسخ به یک سوال فرضی در مورد عدم نیاز به کار، به جای بیان برنامه‌ها یا آرزوهای شخصی، صرفاً به توصیف وضعیت موجود و آرزوی تغییرات بیرونی می‌پردازد. این عدم اشاره به عاملیت شخصی، برنامه‌ریزی برای آینده یا تلاش برای انطباق با شرایط موجود، نشان‌دهنده نوعی انفعال و اتکا به تغییرات محیطی برای بهبود وضعیت است."
+          }
+        ],
+        "healthy": [
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "الان توی این وضعیت هستیم.",
+            "reasoning": "جمله 'الان توی این وضعیت هستیم' یک بیان واقع‌بینانه و بدون گلایه آشکار از شرایط فعلی است. این جمله نشان می‌دهد که کاربر واقعیت موجود را انکار نمی‌کند و با آن مواجه شده است، که می‌تواند نشانه‌ای از پذیرش اولیه شرایط باشد."
+          },
+          {
+            "aspect": "belief",
+            "subject": "باورمندی به قاعده سبب و مسبب",
+            "based_on_answer": "اگر شهری که زندگی می‌کنیم، امکانات و وضع مالی بهتری داشت، شاید وضعیت بهتری داشتیم.",
+            "reasoning": "کاربر به روشنی یک رابطه علت و معلولی بین وضعیت شهر (امکانات و وضع مالی) و وضعیت شخصی خود ('وضعیت بهتر') برقرار می‌کند. این نشان می‌دهد که او به یک سیستم منطقی از علل و معلول‌ها در جهان باور دارد و می‌تواند شرایط را بر اساس آن تحلیل کند."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 3,
+      "question": "به نظرتون چرا این اتفاق می‌افته؟",
+      "answer": "واقعیتش اینه که افرادی که دست‌اندرکار هستن، از وزیر و وکیل تا رئیس‌جمهور و مسئولین، باید به فکر این باشند که جمعیت ایران در حال پیری رفتن است و باید برای این موضوع چاره‌ای بیندیشند.",
+      "analysis": {
+        "unhealthy": [],
+        "healthy": [
+          {
+            "aspect": "emotion",
+            "subject": "امیدواری",
+            "based_on_answer": "باید برای این موضوع چاره‌ای بیندیشند.",
+            "reasoning": "عبارت 'باید چاره‌ای بیندیشند' نشان‌دهنده این باور است که راه‌حل‌هایی برای مشکل مطرح شده وجود دارد و می‌توان به بهبود وضعیت امید داشت. این بیانگر عدم یأس و ناامیدی و حفظ نگرش مثبت نسبت به آینده و توانایی حل مسائل است."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "خود ابرازگری درایت‌مندانه",
+            "based_on_answer": "واقعیتش اینه که افرادی که دست‌اندرکار هستن، از وزیر و وکیل تا رئیس‌جمهور و مسئولین، باید به فکر این باشند که جمعیت ایران در حال پیری رفتن است و باید برای این موضوع چاره‌ای بیندیشند.",
+            "reasoning": "سالمند با صراحت، وضوح و بدون پرخاشگری یا انفعال، نظر خود را در مورد یک مسئله مهم اجتماعی بیان می‌کند. این نحوه ابراز، نشان‌دهنده توانایی مدیریت هیجانات و بیان افکار به شیوه‌ای مؤثر و درایت‌مندانه است که در سالمندی بسیار ارزشمند تلقی می‌شود."
+          },
+          {
+            "aspect": "belief",
+            "subject": "باز تعریف سبک کنشگری اجتماعی",
+            "based_on_answer": "افرادی که دست‌اندرکار هستن... باید به فکر این باشند که جمعیت ایران در حال پیری رفتن است و باید برای این موضوع چاره‌ای بیندیشند.",
+            "reasoning": "این پاسخ نشان می‌دهد که سالمند با وجود تغییرات احتمالی در سبک زندگی و فعالیت‌های اجتماعی گذشته، همچنان نسبت به مسائل جامعه بی‌تفاوت نیست و خود را در قبال آن مسئول می‌داند. او با طرح مسئله و مطالبه از مسئولین، به نوعی کنشگری اجتماعی خود را در قالب جدیدی (ابراز نظر و آگاهی‌بخشی) ادامه می‌دهد و دچار انفعال نشده است. این باور به تداوم نقش‌آفرینی اجتماعی، حتی در شکلی متفاوت، از نشانه‌های سلامت روان در سالمندی است."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 4,
+      "question": "احساس شما نسبت به این شرایط مالی چیست؟",
+      "answer": "ما الان با این مشکلات درگیریم. نه، ناراحت نیستیم، اما به هر حال سختی‌ها وجود دارد. باید کاری کنیم تا زندگی‌مان بهتر شود.",
+      "analysis": {
+        "unhealthy": [],
+        "healthy": [
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "نه، ناراحت نیستیم، اما به هر حال سختی‌ها وجود دارد.",
+            "reasoning": "کاربر با اذعان به وجود 'سختی‌ها' و 'مشکلات'، واقعیت شرایط مالی دشوار را می‌پذیرد، اما بلافاصله با عبارت 'ناراحت نیستیم' نشان می‌دهد که این پذیرش با غرق شدن در هیجانات منفی (مانند غم یا ناامیدی) همراه نیست. این توانایی در پذیرش واقعیت‌های ناخوشایند بدون از دست دادن آرامش درونی، یکی از ابعاد مهم پذیرندگی هیجانی و تاب‌آوری در سالمندی است."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "امیدواری",
+            "based_on_answer": "باید کاری کنیم تا زندگی‌مان بهتر شود.",
+            "reasoning": "این جمله به وضوح نشان‌دهنده نگاهی رو به آینده و باور به امکان بهبود شرایط است. با وجود مشکلات موجود، کاربر تسلیم وضعیت نشده و به جای ناامیدی، به دنبال راهکار و تغییر مثبت است. امیدواری یک منبع انگیزشی قوی برای سالمندان است تا با چالش‌ها مقابله کرده و کیفیت زندگی خود را ارتقا دهند."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "روزآمدسازی روشهای درآمدزایی",
+            "based_on_answer": "باید کاری کنیم تا زندگی‌مان بهتر شود.",
+            "reasoning": "در پاسخ به سوالی درباره 'شرایط مالی'، عبارت 'باید کاری کنیم' حاکی از یک رویکرد فعالانه و عملگرا در جهت بهبود وضعیت مالی است. این نشان می‌دهد که فرد قصد دارد برای مواجهه با 'مشکلات' و 'سختی‌ها' (مالی) دست به کار شود و احتمالاً روش‌های جدید یا متناسب با شرایط فعلی خود را برای بهبود 'زندگی‌مان' (که در این زمینه عمدتاً مالی است) به کار گیرد. این رویکرد فعال، به جای انفعال و تسلیم، نشان‌دهنده سلامت روان و توانایی انطباق با شرایط جدید است."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 5,
+      "question": "آیا کسی از دوستان یا اقوام شما را طی این سال‌ها از دست داده‌اید؟",
+      "answer": "بله، بیست دوست از دست دادم. تقریباً دوازده سال پیش برادرزاده‌ام را از دست دادم و خیلی برایم سخت بود.",
+      "analysis": {
+        "unhealthy": [
+          {
+            "aspect": "emotion",
+            "subject": "تسلیم و رضا",
+            "based_on_answer": "و خیلی برایم سخت بود.",
+            "reasoning": "عبارت «خیلی برایم سخت بود»، به ویژه در اشاره به رویدادی که ۱۲ سال از آن می‌گذرد، نشان‌دهنده یک مبارزه عاطفی عمیق و احتمالاً پایدار است. در چارچوب مفهوم «تسلیم و رضا» که حالتی از آرامش درونی و رضایت خاطر حتی در مواجهه با فقدان را توصیف می‌کند (بر اساس توضیحات نقشه ذهنی برای سلامت معنوی هنگام مرگ نزدیکان)، این بیان نشان می‌دهد که فرد در دستیابی یا حفظ این حالت با دشواری قابل توجهی روبرو بوده یا هست. این سختی می‌تواند حاکی از بار عاطفی پایداری باشد که مانع از پذیرش کامل و آرامش درونی در مورد این فقدان خاص شده است."
+          }
+        ],
+        "healthy": [
+          {
+            "aspect": "emotion",
+            "subject": "ابراز سالم هیجانات",
+            "based_on_answer": "بله، بیست دوست از دست دادم. تقریباً دوازده سال پیش برادرزاده‌ام را از دست دادم و خیلی برایم سخت بود.",
+            "reasoning": "کاربر به طور آشکار و مستقیم به فقدان‌های متعدد خود و همچنین به تأثیر عاطفی عمیق یکی از این فقدان‌ها (از دست دادن برادرزاده) اشاره می‌کند. این تمایل به بیان تجربیات دشوار و احساسات مرتبط با آن‌ها، به جای سرکوب یا انکار، نشانگر توانایی سالم در ابراز هیجانات و خودافشایی است که برای سلامت روان، به ویژه در دوران سالمندی و مواجهه با فقدان‌های مکرر، حیاتی است."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 6,
+      "question": "نظر شما درباره هزینه‌های پزشکی چیست؟",
+      "answer": "همسرم هر پنج شش ماه یک بار پزشکی می‌رود، ولی من سال‌هاست که به پزشک نرفته‌ام چون علاقه‌ای به دارو و آمپول ندارم.",
+      "analysis": {
+        "error": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n\n\n<title>api.avalai.ir | 502: Bad gateway</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n</head>\n<body>\n<div id=\"cf-wrapper\">\n    <div id=\"cf-error-details\" class=\"p-0\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n              <span class=\"inline-block\">Bad gateway</span>\n              <span class=\"code-label\">Error code 502</span>\n            </h1>\n            <div>\n               Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-09-13 14:00:30 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                  \n<div id=\"cf-browser-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Browser\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-cloudflare-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Frankfurt</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    Cloudflare\n    </a>\n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-host-status\" class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">api.avalai.ir</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Host\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n</div>\n\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>The web server reported a bad gateway error.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">97e82bd5de09d358</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">204.18.180.136</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div>\n</div>\n</body>\n</html>"
+      }
+    },
+    {
+      "question_number": 7,
+      "question": "حالا در این سن و سال، بچه‌ها ازدواج کرده‌اند و خودتان و همسرتان تنها هستید؟",
+      "answer": "بله، یک پسر و یک دختر داریم. همسرم همیشه حامی من بوده است.",
+      "analysis": {
+        "error": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n\n\n<title>api.avalai.ir | 502: Bad gateway</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n</head>\n<body>\n<div id=\"cf-wrapper\">\n    <div id=\"cf-error-details\" class=\"p-0\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n              <span class=\"inline-block\">Bad gateway</span>\n              <span class=\"code-label\">Error code 502</span>\n            </h1>\n            <div>\n               Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-09-13 14:00:32 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                  \n<div id=\"cf-browser-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Browser\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-cloudflare-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Frankfurt</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    Cloudflare\n    </a>\n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-host-status\" class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">api.avalai.ir</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Host\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n</div>\n\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>The web server reported a bad gateway error.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">97e82be22cc6d358</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">204.18.180.136</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div>\n</div>\n</body>\n</html>"
+      }
+    },
+    {
+      "question_number": 8,
+      "question": "آیا ارتباطات اجتماعی‌تان کمرنگ‌تر شده؟",
+      "answer": "بله، نسبت به زمانی که بچه‌ها کوچک بودند و سرگرمی‌های بیشتری داشتیم، ارتباطات‌مان کمتر شده است.",
+      "analysis": {
+        "unhealthy": [
+          {
+            "aspect": "behavior",
+            "subject": "انفعال و وابستگی به سبک قدیم با وجود اثبات ناکارآمدی",
+            "based_on_answer": "بله، نسبت به زمانی که بچه‌ها کوچک بودند و سرگرمی‌های بیشتری داشتیم، ارتباطات‌مان کمتر شده است.",
+            "reasoning": "پاسخ کاربر نشان‌دهنده کاهش در کنشگری اجتماعی فعال است که مستقیماً به کاهش ارتباطات اشاره دارد. مقایسه با «زمانی که بچه‌ها کوچک بودند و سرگرمی‌های بیشتری داشتیم» حاکی از آن است که سبک ارتباطی و سرگرمی‌های گذشته، که دیگر در دسترس نیستند، هنوز ملاک ارزیابی قرار گرفته‌اند. این عدم انطباق با شرایط جدید و صرفاً بیان کاهش ارتباطات بدون اشاره به تلاش برای بازتعریف یا یافتن سبک‌های جدید کنشگری اجتماعی، می‌تواند نشانه‌ای از انفعال یا وابستگی به سبک‌های قدیمی ارتباطی باشد که اکنون ناکارآمد شده‌اند."
+          }
+        ],
+        "healthy": [
+          {
+            "aspect": "belief",
+            "subject": "ارتباط جویی حال و گذشته",
+            "based_on_answer": "نسبت به زمانی که بچه‌ها کوچک بودند و سرگرمی‌های بیشتری داشتیم، ارتباطات‌مان کمتر شده است.",
+            "reasoning": "توانایی سالمند برای مقایسه وضعیت فعلی ارتباطات اجتماعی خود با دوره‌ای خاص از گذشته (زمانی که بچه‌ها کوچک بودند و سرگرمی‌های بیشتری داشتند)، نشان‌دهنده ظرفیت او برای تأمل و ایجاد ارتباط بین حال و گذشته زندگی‌اش است. این 'ارتباط‌جویی حال و گذشته' یک نشانگر سلامت روان در سالمندی محسوب می‌شود، زیرا به فرد کمک می‌کند تا سیر زندگی خود را یکپارچه ببیند و با تغییرات و مراحل مختلف زندگی کنار بیاید، حتی اگر نتیجه این مقایسه، بیان یک کمبود یا تغییر باشد."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 9,
+      "question": "با این حال، چطور می‌گذرانید؟",
+      "answer": "امیدوارم روح عزیزان از دست رفته‌ام شاد باشد و همیشه به یاد آن‌ها هستم.",
+      "analysis": {
+        "error": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n\n\n<title>api.avalai.ir | 502: Bad gateway</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n</head>\n<body>\n<div id=\"cf-wrapper\">\n    <div id=\"cf-error-details\" class=\"p-0\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n              <span class=\"inline-block\">Bad gateway</span>\n              <span class=\"code-label\">Error code 502</span>\n            </h1>\n            <div>\n               Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-09-13 14:01:03 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                  \n<div id=\"cf-browser-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Browser\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-cloudflare-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Frankfurt</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    Cloudflare\n    </a>\n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-host-status\" class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">api.avalai.ir</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Host\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n</div>\n\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>The web server reported a bad gateway error.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">97e82ca6992fd358</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">204.18.180.136</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div>\n</div>\n</body>\n</html>"
+      }
+    },
+    {
+      "question_number": 10,
+      "question": "در آخر، چه پیامی برای جوان‌ها دارید؟",
+      "answer": "به جوان‌ترها بگوید که زندگی را جدی بگیرند و قدر خانواده و دوستانشان را بدانند",
+      "analysis": {
+        "error": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n\n\n<title>api.avalai.ir | 502: Bad gateway</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n</head>\n<body>\n<div id=\"cf-wrapper\">\n    <div id=\"cf-error-details\" class=\"p-0\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n              <span class=\"inline-block\">Bad gateway</span>\n              <span class=\"code-label\">Error code 502</span>\n            </h1>\n            <div>\n               Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-09-13 14:01:06 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                  \n<div id=\"cf-browser-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Browser\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-cloudflare-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Frankfurt</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    Cloudflare\n    </a>\n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-host-status\" class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">api.avalai.ir</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Host\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n</div>\n\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>The web server reported a bad gateway error.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">97e82cb478d9d358</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">204.18.180.136</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div>\n</div>\n</body>\n</html>"
+      }
+    }
+  ]
+}

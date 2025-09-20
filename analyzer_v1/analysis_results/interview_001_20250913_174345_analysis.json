@@ -1,0 +1,268 @@
+{
+  "interview_id": "interview_001_20250913_174345",
+  "timestamp": "2025-09-13T17:45:21.903653",
+  "total_questions": 10,
+  "analyses": [
+    {
+      "question_number": 1,
+      "question": "مهم‌ترین چالش‌تون در این دوران چیه؟",
+      "answer": "مهم‌ترین چالش دوران اینه که حقوق‌ها نسبت به خرج‌های خانواده خیلی ناچیزه. این زندگی سخته.",
+      "analysis": {
+        "unhealthy": [
+          {
+            "aspect": "emotion",
+            "subject": "ناامیدی",
+            "based_on_answer": "این زندگی سخته.",
+            "reasoning": "عبارت 'این زندگی سخته' نشان‌دهنده تجربه ناامیدی و نارضایتی است که می‌تواند به عنوان یک هیجان منفی و پایدار در نظر گرفته شود. این احساس ممکن است به دلیل فشار مالی و چالش‌های اقتصادی ایجاد شده باشد."
+          },
+          {
+            "aspect": "belief",
+            "subject": "نگرش منفی و سیاهنمایی نسبت به سابقه شغلی",
+            "based_on_answer": "حقوق‌ها نسبت به خرج‌های خانواده خیلی ناچیزه.",
+            "reasoning": "این نگرش می‌تواند نشان‌دهنده یک باور ناسالم باشد که فرد به دلیل مشکلات مالی، به طور کلی دید منفی نسبت به وضعیت اقتصادی خود و احتمالاً نقش شغلی یا درآمدی‌اش دارد."
+          }
+        ],
+        "healthy": []
+      }
+    },
+    {
+      "question_number": 2,
+      "question": "به نظرتون اگر وضعیت مالی به گونه‌ای بود که مجبور نبودید کار کنید، چه می‌شد؟",
+      "answer": "الان توی این وضعیت هستیم. یعنی اگر شهری که زندگی می‌کنیم، امکانات و وضع مالی بهتری داشت، شاید وضعیت بهتری داشتیم.",
+      "analysis": {
+        "unhealthy": [
+          {
+            "aspect": "emotion",
+            "subject": "نارضایتی",
+            "based_on_answer": "یعنی اگر شهری که زندگی می‌کنیم، امکانات و وضع مالی بهتری داشت، شاید وضعیت بهتری داشتیم.",
+            "reasoning": "عبارت به وضوح نشان‌دهنده نوعی احساس نارضایتی از شرایط زندگی کنونی است. از منظر روانشناسی، نارضایتی مداوم می‌تواند به کاهش سلامت روان و افزایش اضطراب منجر شود."
+          },
+          {
+            "aspect": "belief",
+            "subject": "نگرش منفی و سیاه‌نمایی نسبت به شرایط فعلی",
+            "based_on_answer": "اگر شهری که زندگی می‌کنیم، امکانات و وضع مالی بهتری داشت، شاید وضعیت بهتری داشتیم.",
+            "reasoning": "این جمله نشان‌دهنده تمایل به تمرکز بر کمبودها و شرایط منفی است. چنین نگرشی ممکن است مانع از تلاش برای بهبود وضعیت یا پذیرش واقعیت‌های موجود شود."
+          }
+        ],
+        "healthy": [
+          {
+            "aspect": "belief",
+            "subject": "باز تعریف معنای زندگی",
+            "based_on_answer": "شاید وضعیت بهتری داشتیم.",
+            "reasoning": "عبارت نشان‌دهنده نوعی امیدواری به آینده و احتمال تغییر شرایط است. این موضوع از منظر روانشناسی می‌تواند به معنای تلاش برای یافتن معنا و جهت در زندگی باشد."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "الان توی این وضعیت هستیم.",
+            "reasoning": "این عبارت حاکی از پذیرش نسبی وضعیت موجود است. پذیرش شرایط می‌تواند یک قدم مثبت در مدیریت هیجانات و برخورد سالم با چالش‌ها باشد."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 3,
+      "question": "به نظرتون چرا این اتفاق می‌افته؟",
+      "answer": "واقعیتش اینه که افرادی که دست‌اندرکار هستن، از وزیر و وکیل تا رئیس‌جمهور و مسئولین، باید به فکر این باشند که جمعیت ایران در حال پیری رفتن است و باید برای این موضوع چاره‌ای بیندیشند.",
+      "analysis": {
+        "error": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n\n\n<title>api.avalai.ir | 502: Bad gateway</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n</head>\n<body>\n<div id=\"cf-wrapper\">\n    <div id=\"cf-error-details\" class=\"p-0\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n              <span class=\"inline-block\">Bad gateway</span>\n              <span class=\"code-label\">Error code 502</span>\n            </h1>\n            <div>\n               Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-09-13 14:14:07 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                  \n<div id=\"cf-browser-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Browser\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-cloudflare-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Frankfurt</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    Cloudflare\n    </a>\n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-host-status\" class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">api.avalai.ir</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Host\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n</div>\n\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>The web server reported a bad gateway error.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">97e83fca994cdbc1</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">204.18.180.136</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div>\n</div>\n</body>\n</html>"
+      }
+    },
+    {
+      "question_number": 4,
+      "question": "احساس شما نسبت به این شرایط مالی چیست؟",
+      "answer": "ما الان با این مشکلات درگیریم. نه، ناراحت نیستیم، اما به هر حال سختی‌ها وجود دارد. باید کاری کنیم تا زندگی‌مان بهتر شود.",
+      "analysis": {
+        "unhealthy": [],
+        "healthy": [
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "نه، ناراحت نیستیم، اما به هر حال سختی‌ها وجود دارد.",
+            "reasoning": "کاربر نسبت به مشکلات مالی پذیرش نشان داده و به جای ابراز ناراحتی یا ناامیدی، وضعیت را پذیرفته است. این نشانگر سلامت هیجانی است که از پذیرش تغییرات و سختی‌های زندگی بدون واکنش‌های منفی شدید حکایت دارد."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "عملگرایی و انتخابگری به سبک جدید",
+            "based_on_answer": "باید کاری کنیم تا زندگی‌مان بهتر شود.",
+            "reasoning": "کاربر در مواجهه با مشکلات مالی به جای انفعال، بر نیاز به اقدام و تغییر تأکید دارد. این نشان‌دهنده تمایل به عملگرایی و تلاش برای بهبود شرایط است که از سلامت رفتاری حکایت دارد."
+          },
+          {
+            "aspect": "belief",
+            "subject": "توسعه معنای دارایی",
+            "based_on_answer": "نه، ناراحت نیستیم، اما به هر حال سختی‌ها وجود دارد.",
+            "reasoning": "عدم ابراز ناراحتی و نگاه مثبت به شرایط دشوار مالی می‌تواند نشانه‌ای از توسعه معنای دارایی باشد. کاربر ممکن است ارزش‌های غیرمادی را مهم‌تر از مشکلات مالی بداند."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 5,
+      "question": "آیا کسی از دوستان یا اقوام شما را طی این سال‌ها از دست داده‌اید؟",
+      "answer": "بله، بیست دوست از دست دادم. تقریباً دوازده سال پیش برادرزاده‌ام را از دست دادم و خیلی برایم سخت بود.",
+      "analysis": {
+        "unhealthy": [
+          {
+            "aspect": "emotion",
+            "subject": "پایداری هیجانات منفی - اندوه",
+            "based_on_answer": "خیلی برایم سخت بود.",
+            "reasoning": "این جمله نشان‌دهنده تجربه اندوه عمیق و ماندگار در واکنش به از دست دادن برادرزاده است. این نوع احساسات می‌تواند نشان‌دهنده دشواری در پذیرش فقدان باشد که ممکن است به سلامت روانی آسیب برساند."
+          }
+        ],
+        "healthy": [
+          {
+            "aspect": "belief",
+            "subject": "رحلت نگری بیدار گرانه",
+            "based_on_answer": "بیست دوست از دست دادم.",
+            "reasoning": "اشاره به تعداد افرادی که از دست داده‌اند، بدون بیان ترس یا اضطراب از مرگ، نشان‌دهنده نوعی پذیرش واقع‌بینانه از مرگ است که می‌تواند با مفهوم رحلت نگری بیدارگرانه مرتبط باشد."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "بیست دوست از دست دادم.",
+            "reasoning": "اشاره به از دست دادن تعداد زیادی از دوستان بدون بیان واکنش‌های شدیدی مانند خشم یا انکار می‌تواند نشان‌دهنده پذیرش تغییرات طبیعی زندگی باشد."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 6,
+      "question": "نظر شما درباره هزینه‌های پزشکی چیست؟",
+      "answer": "همسرم هر پنج شش ماه یک بار پزشکی می‌رود، ولی من سال‌هاست که به پزشک نرفته‌ام چون علاقه‌ای به دارو و آمپول ندارم.",
+      "analysis": {
+        "error": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n\n\n<title>api.avalai.ir | 502: Bad gateway</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n</head>\n<body>\n<div id=\"cf-wrapper\">\n    <div id=\"cf-error-details\" class=\"p-0\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n              <span class=\"inline-block\">Bad gateway</span>\n              <span class=\"code-label\">Error code 502</span>\n            </h1>\n            <div>\n               Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-09-13 14:14:36 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                  \n<div id=\"cf-browser-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Browser\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-cloudflare-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Frankfurt</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    Cloudflare\n    </a>\n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-host-status\" class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">api.avalai.ir</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Host\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n</div>\n\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>The web server reported a bad gateway error.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">97e8407f789a9970</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">204.18.180.136</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div>\n</div>\n</body>\n</html>"
+      }
+    },
+    {
+      "question_number": 7,
+      "question": "حالا در این سن و سال، بچه‌ها ازدواج کرده‌اند و خودتان و همسرتان تنها هستید؟",
+      "answer": "بله، یک پسر و یک دختر داریم. همسرم همیشه حامی من بوده است.",
+      "analysis": {
+        "unhealthy": [],
+        "healthy": [
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "همسرم همیشه حامی من بوده است.",
+            "reasoning": "کاربر به حمایت همسر خود اشاره می‌کند که نشانه پذیرش و قدردانی نسبت به روابط حمایتی است. این نشانگر سلامت روانی مثبت است و به تنظیم هیجانات در تعاملات اجتماعی کمک می‌کند."
+          },
+          {
+            "aspect": "belief",
+            "subject": "توسعه معنای دارایی",
+            "based_on_answer": "یک پسر و یک دختر داریم.",
+            "reasoning": "کاربر به فرزندان خود اشاره کرده است که می‌تواند نشان‌دهنده ارزش‌گذاری به دستاوردهای غیرمادی زندگی باشد. این نگرش به توسعه معنای دارایی مرتبط است و نشانه‌ای از سلامت روان در سالمندان است."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "احسان مداری ارتباطی",
+            "based_on_answer": "همسرم همیشه حامی من بوده است.",
+            "reasoning": "اشاره به حمایت همسر و احتمالاً رابطه مشفقانه میان زوجین نشان‌دهنده رفتار احسان مداری در ارتباطات است. این رفتار سالم به حفظ پیوندهای عاطفی و اجتماعی کمک می‌کند."
+          },
+          {
+            "aspect": "belief",
+            "subject": "بازبینی و بازآفرینی ارتباطی",
+            "based_on_answer": "همسرم همیشه حامی من بوده است.",
+            "reasoning": "کاربر به نقش حمایتی همسر خود اشاره کرده است که نشان‌دهنده بازبینی و تقویت روابط خانوادگی در دوره سالمندی است. این نشانگر سلامت روانی مثبت است."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 8,
+      "question": "آیا ارتباطات اجتماعی‌تان کمرنگ‌تر شده؟",
+      "answer": "بله، نسبت به زمانی که بچه‌ها کوچک بودند و سرگرمی‌های بیشتری داشتیم، ارتباطات‌مان کمتر شده است.",
+      "analysis": {
+        "unhealthy": [
+          {
+            "aspect": "emotion",
+            "subject": "ناامیدی",
+            "based_on_answer": "نسبت به زمانی که بچه‌ها کوچک بودند و سرگرمی‌های بیشتری داشتیم، ارتباطات‌مان کمتر شده است.",
+            "reasoning": "اشاره کاربر به کاهش ارتباطات اجتماعی و مقایسه با دوران گذشته می‌تواند نشانه‌ای از ناامیدی نسبت به وضعیت فعلی باشد، زیرا ممکن است به حسرت و نگرانی از کاهش کیفیت زندگی اجتماعی اشاره کند."
+          },
+          {
+            "aspect": "belief",
+            "subject": "عدم توسعه و تحول جامعه ارتباطی",
+            "based_on_answer": "ارتباطات‌مان کمتر شده است.",
+            "reasoning": "کاهش ارتباطات اجتماعی ممکن است نشان‌دهنده باور به عدم امکان توسعه ارتباطات جدید یا حفظ ارتباطات گذشته باشد که می‌تواند به انزوای اجتماعی و کاهش رضایت از زندگی منجر شود."
+          }
+        ],
+        "healthy": [
+          {
+            "aspect": "belief",
+            "subject": "ارتباط جویی حال و گذشته",
+            "based_on_answer": "نسبت به زمانی که بچه‌ها کوچک بودند و سرگرمی‌های بیشتری داشتیم، ارتباطات‌مان کمتر شده است.",
+            "reasoning": "کاربر به طور فعال گذشته خود را مرور کرده و ارتباط بین حال و گذشته را برقرار می‌کند. این توانایی می‌تواند به انسجام فکری و درک بهتر شرایط فعلی کمک کند."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "ارتباطات‌مان کمتر شده است.",
+            "reasoning": "کاربر به کاهش ارتباطات اجتماعی اذعان دارد بدون اینکه نشانه‌ای از انکار یا مقاومت شدید نسبت به این تغییر مشاهده شود. این پذیرش ممکن است نشان‌دهنده توانایی سازگاری با شرایط جدید باشد."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 9,
+      "question": "با این حال، چطور می‌گذرانید؟",
+      "answer": "امیدوارم روح عزیزان از دست رفته‌ام شاد باشد و همیشه به یاد آن‌ها هستم.",
+      "analysis": {
+        "unhealthy": [],
+        "healthy": [
+          {
+            "aspect": "belief",
+            "subject": "باورمندی به تداوم هستی",
+            "based_on_answer": "امیدوارم روح عزیزان از دست رفته‌ام شاد باشد",
+            "reasoning": "این جمله نشان‌دهنده باور به تداوم هستی و زندگی پس از مرگ است که به کاهش اضطراب و پذیرش مرگ کمک می‌کند."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "تسلیم و رضا",
+            "based_on_answer": "همیشه به یاد آن‌ها هستم",
+            "reasoning": "حفظ یاد عزیزان از دست رفته نشان‌دهنده پذیرش و رضایتمندی از واقعیت مرگ و ارتباط قلبی مداوم با آنان است."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "امیدوارم روح عزیزان از دست رفته‌ام شاد باشد",
+            "reasoning": "این جمله نشان‌دهنده پذیرش طبیعی مرگ عزیزان است و فقدان آنان را به عنوان بخشی از زندگی پذیرفته است."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 10,
+      "question": "در آخر، چه پیامی برای جوان‌ها دارید؟",
+      "answer": "به جوان‌ترها بگوید که زندگی را جدی بگیرند و قدر خانواده و دوستانشان را بدانند",
+      "analysis": {
+        "unhealthy": [],
+        "healthy": [
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "قدر خانواده و دوستانشان را بدانند",
+            "reasoning": "پذیرندگی به معنای پذیرش و قدردانی از روابط و ارزش‌های موجود است. توصیه به قدردانی از خانواده و دوستان نشان‌دهنده وجود این ویژگی در فرد است."
+          },
+          {
+            "aspect": "belief",
+            "subject": "باز تعریف معنای زندگی",
+            "based_on_answer": "زندگی را جدی بگیرند",
+            "reasoning": "توصیه به جدی گرفتن زندگی نشان‌دهنده باور به اهمیت معنا و هدفمندی در زندگی است که از شاخص‌های بازتعریف معنای زندگی محسوب می‌شود."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "اهتمام ورزی به انتقال تجارب",
+            "based_on_answer": "به جوان‌ترها بگوید",
+            "reasoning": "تمایل به انتقال تجربه به نسل جوان نشان‌دهنده رفتار سالم در راستای انتقال تجربیات و کمک به رشد دیگران است."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "شکرگزاری",
+            "based_on_answer": "قدر خانواده و دوستانشان را بدانند",
+            "reasoning": "توصیه به قدردانی از خانواده و دوستان بازتابی از هیجان شکرگزاری و قدردانی است که نشان‌دهنده سلامت هیجانی فرد است."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "interview_id": "interview_007_20250913_180543",
+  "timestamp": "2025-09-13T18:06:27.962378",
+  "total_questions": 3,
+  "analyses": [
+    {
+      "question_number": 1,
+      "question": "موقعیتی که برای شما رنج اور بوده است را تعریف کنید؟",
+      "answer": "پسرم که تصادف کرد خیلی استرس داشتم سه روز قبل از عقد دخترم بود که زنگ زد و گفت چیزیم نیست و ... من تا صبح دل تو دلم نبود و فقط گریه کردم اون شب خیلی سخت بود می گفتم با خودم آیا چی شده؟ بعد به خودم گفتم بالاخره اتفاقه دیگه افتاده. اون شب هیچی نمی‌تونست آرومم کنه. وقتی دیدمش آروم شدم. چون اگه شب نبود می‌رفتم بیمارستان مماشینه مقصر بود که زده بود بهش من هی خدا را شکر می‌کردم که کار به جای باریک نکشید دو سه روز هم صبح تا شب بیمارستان پیشش بودم و بهش دلداری میدادم. بعد که فهمیدم مقصر راننده است خیلی می‌خواستم چیزی بهش بگم خیلی خودداری کردم با خودم گفتم آدم بدبختیست چیزی بهش نگفتم. توی فشارهای زندگی می‌روم امامزاده نزدیک خانه‌مان. خونه دو رکعت نماز می‌خونم می‌روم امامزاده مشکلات اقتصادی زندگی خیلی زیاد بوده برام. ولی کوتاه نمی‌آیم ختم صلوات و نماز و نماز مغرب را می‌خوانم و آرام‌تر می‌شدم و بهتر می تونستم با شرایط مقابله کنم و پذیرش می کردم مشکلات را و کارهایی بعدش انجام می دادم. یه دوست هم داشتم می‌رفتم درد و دل می‌کردم آرام می‌شدم یک کمی اون می‌گفت یک کمی من می‌گفت آرام می‌شدیم. به این فکر نکردم که دنیا چقدر سخت است چون مشکلات اطرافیان را می‌بینم میگم دنیا محل سختی است به هر حال، ولی بیشتر من میگم خود آدم و برخی هم اطرافیان رقم می‌زنند و بخشی هم قسمت و سرنوشت است دیگر.",
+      "analysis": {
+        "unhealthy": [
+          {
+            "aspect": "emotion",
+            "subject": "اضطراب و تشویش",
+            "based_on_answer": "اون شب هیچی نمی‌تونست آرومم کنه.",
+            "reasoning": "کاربر به طور مستقیم به تجربه اضطراب شدید در یک موقعیت استرس‌زا اشاره کرده است. این نشان‌دهنده عدم توانایی در تنظیم هیجانات در آن لحظه است."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "بی‌تابی",
+            "based_on_answer": "من تا صبح دل تو دلم نبود و فقط گریه کردم.",
+            "reasoning": "بی‌تابی و تجربه هیجانات شدید منفی در مواجهه با موقعیت‌های دشوار نشان‌دهنده سبک تنظیم هیجانی ناسالم است."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "اندوه",
+            "based_on_answer": "اون شب خیلی سخت بود می‌گفتم با خودم آیا چی شده؟",
+            "reasoning": "کاربر احساس اندوه و ناراحتی شدید را تجربه کرده و این هیجان منفی در پاسخ وی برجسته است."
+          }
+        ],
+        "healthy": [
+          {
+            "aspect": "belief",
+            "subject": "ربوبیت باوری",
+            "based_on_answer": "من هی خدا را شکر می‌کردم که کار به جای باریک نکشید.",
+            "reasoning": "کاربر به شکرگزاری و باور به لطف خداوند اشاره کرده است که نشان‌دهنده سلامت معنوی و ربوبیت باوری است."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "خود آرامسازی در پناه مناسک",
+            "based_on_answer": "توی فشارهای زندگی می‌روم امامزاده نزدیک خانه‌مان. خونه دو رکعت نماز می‌خونم می‌روم امامزاده.",
+            "reasoning": "کاربر از مناسک دینی برای کاهش اضطراب و آرامش استفاده می‌کند که نشان‌دهنده رفتار سالم در مواجهه با فشارهای زندگی است."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "پذیرندگی",
+            "based_on_answer": "بعد به خودم گفتم بالاخره اتفاقه دیگه افتاده.",
+            "reasoning": "کاربر توانسته است پذیرش نسبت به موقعیت دشوار داشته باشد، که نشان‌دهنده سلامت هیجانی است."
+          },
+          {
+            "aspect": "belief",
+            "subject": "باورمندی به قاعده سبب و مسبب",
+            "based_on_answer": "به این فکر نکردم که دنیا چقدر سخت است چون مشکلات اطرافیان را می‌بینم میگم دنیا محل سختی است به هر حال، ولی بیشتر من میگم خود آدم و برخی هم اطرافیان رقم می‌زنند و بخشی هم قسمت و سرنوشت است دیگر.",
+            "reasoning": "کاربر به قوانین علت و معلول در زندگی اشاره کرده و به نقش خود و دیگران در ایجاد مشکلات باور دارد، که نشان‌دهنده سلامت معنوی است."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "احسان مداری ارتباطی",
+            "based_on_answer": "یه دوست هم داشتم می‌رفتم درد و دل می‌کردم آرام می‌شدم یک کمی اون می‌گفت یک کمی من می‌گفت آرام می‌شدیم.",
+            "reasoning": "کاربر از ارتباطات حمایتی و احسان مداری در رابطه با دیگران بهره می‌گیرد، که نشان‌دهنده رفتار سالم در مواجهه با مشکلات است."
+          },
+          {
+            "aspect": "belief",
+            "subject": "توسعه معنای دارایی",
+            "based_on_answer": "به این فکر نکردم که دنیا چقدر سخت است چون مشکلات اطرافیان را می‌بینم میگم دنیا محل سختی است به هر حال.",
+            "reasoning": "کاربر توانسته است معنای زندگی و دارایی‌های خود را توسعه دهد و به جای تمرکز بر سختی‌ها، به جنبه‌های مثبت زندگی توجه کند."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 2,
+      "question": "چه کار می‌کنید دلتون باز بشه؟",
+      "answer": "سرم را به کار گرم می‌کنم حتی پول نداشته باشم می‌روم بازار یه گشتی می‌زنم چیزهایی را می‌بینم و برمی‌گردم خانه حوصلم میاد سر جاش و توی خونه هم تزیینی و دکوری‌ها را جابجا می‌کنم و به گل و گیاهم می‌رسم.",
+      "analysis": {
+        "unhealthy": [],
+        "healthy": [
+          {
+            "aspect": "behavior",
+            "subject": "انطباق پذیری",
+            "based_on_answer": "سرم را به کار گرم می‌کنم",
+            "reasoning": "این بخش از پاسخ نشان‌دهنده این است که کاربر توانایی انطباق با تغییرات و شرایط را دارد و با مشغول کردن خود به کار، به طور فعالانه با وضعیت‌های دشوار کنار می‌آید. این رفتار حاکی از انطباق واقع‌بینانه با تغییرات زندگی است."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "طبیعت نوازی",
+            "based_on_answer": "به گل و گیاهم می‌رسم",
+            "reasoning": "رسیدگی به گل‌ها و گیاهان نشان‌دهنده علاقه به طبیعت و مراقبت از آن است. این رفتار مثبت می‌تواند حس آرامش و ارتباط با طبیعت را تقویت کند و از مصادیق طبیعت‌نوازی محسوب می‌شود."
+          },
+          {
+            "aspect": "emotion",
+            "subject": "تنظیم هیجانات",
+            "based_on_answer": "حتی پول نداشته باشم می‌روم بازار یه گشتی می‌زنم چیزهایی را می‌بینم و برمی‌گردم خانه حوصلم میاد سر جاش",
+            "reasoning": "این بخش از پاسخ نشان‌دهنده توانایی فرد در تنظیم هیجانات و استفاده از راهکارهای سالم برای بهبود حال روحی خود است. فرد به جای غرق شدن در احساسات منفی، از فعالیت‌های ساده‌ای مانند گشت زدن در بازار برای بازگشت به حالت عادی استفاده می‌کند."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "باز تعریف معنای زندگی",
+            "based_on_answer": "توی خونه هم تزیینی و دکوری‌ها را جابجا می‌کنم",
+            "reasoning": "مشغول شدن به امور خانگی و بازتعریف معانی ساده در زندگی، مانند تغییر دکوراسیون، نشان‌دهنده تلاش برای یافتن معانی جدید و ایجاد نشاط در روزمرگی‌هاست که از نشانه‌های بازتعریف معنای زندگی است."
+          },
+          {
+            "aspect": "behavior",
+            "subject": "خود آرامسازی در پناه مناسک",
+            "based_on_answer": "به گل و گیاهم می‌رسم",
+            "reasoning": "رسیدگی به گیاهان می‌تواند به عنوان یک مناسک روزمره آرامش‌بخش تلقی شود که فرد با انجام آن به خود آرامش می‌دهد. این رفتار نشان‌دهنده سلامت روانی در مدیریت اضطراب‌ها و دستیابی به آرامش است."
+          }
+        ]
+      }
+    },
+    {
+      "question_number": 3,
+      "question": "تا حالا شده از دیگران رنج و سختی به شما برسد؟",
+      "answer": "بله ولی خودم ناراحت می‌شوم به رو نمی‌آورم بدم نمی‌آید از اون‌ها میگم اون هم یه کمبودهایی داره مثلاً جاریم خدا بیامرز حالا درست نیست بگم فوت کرده ولی حرف می‌آورد و می‌برد همون موقع که می‌گفت آتیش می‌گرفتم ولی بعد با خودم می‌گفتم کمبودهایی داره اگر این هم سرش گرم بچه و زندگی بود و مشکلات نداشت این کارها را نمی‌کرد من هم حواسم بود نروم به مادر شوهر و خواهر شوهرم بگویم که این‌ها را گفته و نمی‌گذاشتم حرف بیاره پیشم.",
+      "analysis": {
+        "error": "Analysis failed after 3 attempts: InternalServerError: <!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-js ie8 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if gt IE 8]><!--> <html class=\"no-js\" lang=\"en-US\"> <!--<![endif]-->\n<head>\n\n\n<title>api.avalai.ir | 502: Bad gateway</title>\n<meta charset=\"UTF-8\" />\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n<meta name=\"robots\" content=\"noindex, nofollow\" />\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n<link rel=\"stylesheet\" id=\"cf_styles-css\" href=\"/cdn-cgi/styles/main.css\" />\n\n\n</head>\n<body>\n<div id=\"cf-wrapper\">\n    <div id=\"cf-error-details\" class=\"p-0\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n              <span class=\"inline-block\">Bad gateway</span>\n              <span class=\"code-label\">Error code 502</span>\n            </h1>\n            <div>\n               Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-09-13 14:36:22 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                  \n<div id=\"cf-browser-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Browser\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-cloudflare-status\" class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Frankfurt</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" target=\"_blank\" rel=\"noopener noreferrer\">\n    Cloudflare\n    </a>\n  </h3>\n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n</div>\n\n<div id=\"cf-host-status\" class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">api.avalai.ir</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n    \n    Host\n    \n  </h3>\n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n</div>\n\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>The web server reported a bad gateway error.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">97e8606208bfc244</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    <span id=\"cf-footer-item-ip\" class=\"cf-footer-item hidden sm:block sm:mb-1\">\n      Your IP:\n      <button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">204.18.180.136</span>\n      <span class=\"cf-footer-separator sm:hidden\">&bull;</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance &amp; security by</span> <a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_502&utm_campaign=api.avalai.ir\" id=\"brand_link\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  <script>(function(){function d(){var b=a.getElementById(\"cf-footer-item-ip\"),c=a.getElementById(\"cf-footer-ip-reveal\");b&&\"classList\"in b&&(b.classList.remove(\"hidden\"),c.addEventListener(\"click\",function(){c.classList.add(\"hidden\");a.getElementById(\"cf-footer-ip\").classList.remove(\"hidden\")}))}var a=document;document.addEventListener&&a.addEventListener(\"DOMContentLoaded\",d)})();</script>\n</div><!-- /.error-footer -->\n\n\n    </div>\n</div>\n</body>\n</html>",
+        "error_type": "InternalServerError",
+        "attempts": 3
+      }
+    }
+  ],
+  "processing_stats": {
+    "total_questions": 83,
+    "successful_analyses": 82,
+    "failed_analyses": 1,
+    "retry_attempts": 14,
+    "errors_by_type": {
+      "InternalServerError": 1
+    }
+  }
+}
