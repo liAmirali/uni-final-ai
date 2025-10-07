@@ -1,0 +1,304 @@
+[
+    {
+        "id": 1,
+        "age": 75,
+        "gender": "F",
+        "biological_component": {
+            "general_health": "متوسط",
+            "chronic_disease": "دیابت",
+            "mobility": "مستقل",
+            "senses": {
+                "بینایی": "ضعیف",
+                "شنوایی": "خوب",
+                "سایر": "درد مفاصل"
+            },
+            "daily_energy": "متوسط"
+        },
+        "psychological_component": {
+            "personality_type": "ISFJ",
+            "cognitive_status": "حافظه سالم",
+            "dominant_emotion": "مضطرب",
+            "emotional_intelligence": "متوسط",
+            "iq": 105,
+            "attitude_to_aging": "مقاومت"
+        },
+        "social_component": {
+            "main_social_role": "مادربزرگ",
+            "social_support": "خانواده پرجمعیت",
+            "social_participation": "غیر فعال"
+        },
+        "economic_component": {
+            "income": "حقوق بازنشستگی",
+            "economic_decile": 6,
+            "housing": "خانه شخصی"
+        },
+        "cultural_value_component": {
+            "religion": "مسلمان شیعه",
+            "moral_traits": [
+                "خودخواهی",
+                "بی‌اعتمادی",
+                "سردی رفتاری"
+            ],
+            "religiosity_level": "زیاد",
+            "cultural_identity": {
+                "قومیت": "فارسی",
+                "زبان": "فارسی",
+                "ملیت": "ایرانی"
+            }
+        },
+        "contextual_component": {
+            "personal_experiences": [
+                "مراقبت از والدین سالمند",
+                "ازدواج فرزندان",
+                "از دست دادن همسر"
+            ],
+            "historical_events": [
+                "انقلاب",
+                "جنگ تحمیلی"
+            ],
+            "life_satisfaction": "ناراضی",
+            "meaning_and_purpose": "فعالیت معنوی"
+        }
+    },
+    {
+        "id": 2,
+        "age": 68,
+        "gender": "M",
+        "biological_component": {
+            "general_health": "خوب",
+            "chronic_disease": "فشار خون",
+            "mobility": "با عصا یا واکر",
+            "senses": {
+                "بینایی": "خوب",
+                "شنوایی": "ضعیف",
+                "سایر": "درد مفاصل"
+            },
+            "daily_energy": "متوسط"
+        },
+        "psychological_component": {
+            "personality_type": "ESTJ",
+            "cognitive_status": "فراموشی خفیف",
+            "dominant_emotion": "غمگین",
+            "emotional_intelligence": "متوسط",
+            "iq": 102,
+            "attitude_to_aging": "معناجویی"
+        },
+        "social_component": {
+            "main_social_role": "بازنشسته",
+            "social_support": "دوستان حامی",
+            "social_participation": "فعال"
+        },
+        "economic_component": {
+            "income": "حقوق بازنشستگی",
+            "economic_decile": 7,
+            "housing": "خانه شخصی"
+        },
+        "cultural_value_component": {
+            "religion": "مسلمان شیعه",
+            "moral_traits": [
+                "بی‌صبری",
+                "سخت‌گیر"
+            ],
+            "religiosity_level": "زیاد",
+            "cultural_identity": {
+                "قومیت": "فارسی",
+                "زبان": "فارسی",
+                "ملیت": "ایرانی"
+            }
+        },
+        "contextual_component": {
+            "personal_experiences": [
+                "بازنشستگی",
+                "مراقبت از فرزند بیمار",
+                "از دست دادن والدین"
+            ],
+            "historical_events": [
+                "انقلاب",
+                "جنگ تحمیلی"
+            ],
+            "life_satisfaction": "بینابین",
+            "meaning_and_purpose": "فعالیت معنوی"
+        }
+    },
+    {
+        "id": 3,
+        "age": 72,
+        "gender": "F",
+        "biological_component": {
+            "general_health": "ضعیف",
+            "chronic_disease": "دیابت",
+            "mobility": "روی ویلچر",
+            "senses": {
+                "بینایی": "ضعیف",
+                "شنوایی": "ضعیف",
+                "سایر": "درد زانو"
+            },
+            "daily_energy": "کم"
+        },
+        "psychological_component": {
+            "personality_type": "ISFP",
+            "cognitive_status": "آلزایمر",
+            "dominant_emotion": "غمگین",
+            "emotional_intelligence": "کم",
+            "iq": 95,
+            "attitude_to_aging": "انکار"
+        },
+        "social_component": {
+            "main_social_role": "مادربزرگ",
+            "social_support": "حمایت دولتی",
+            "social_participation": "غیر فعال"
+        },
+        "economic_component": {
+            "income": "وابسته به فرزندان",
+            "economic_decile": 3,
+            "housing": "خانه سالمندان"
+        },
+        "cultural_value_component": {
+            "religion": "مسلمان شیعه",
+            "moral_traits": [
+                "خودخواهی",
+                "بی‌اعتمادی",
+                "سردی رفتاری"
+            ],
+            "religiosity_level": "زیاد",
+            "cultural_identity": {
+                "قومیت": "کرد",
+                "زبان": "کردی",
+                "ملیت": "ایرانی"
+            }
+        },
+        "contextual_component": {
+            "personal_experiences": [
+                "ازدواج فرزندان",
+                "از دست دادن والدین",
+                "مراقبت از نوه‌ها"
+            ],
+            "historical_events": [
+                "انقلاب",
+                "جنگ تحمیلی"
+            ],
+            "life_satisfaction": "ناراضی",
+            "meaning_and_purpose": "فعالیت معنوی"
+        }
+    },
+    {
+        "id": 4,
+        "age": 85,
+        "gender": "M",
+        "biological_component": {
+            "general_health": "ضعیف",
+            "chronic_disease": "فشار خون",
+            "mobility": "روی ویلچر",
+            "senses": {
+                "بینایی": "ضعیف",
+                "شنوایی": "ضعیف",
+                "سایر": "درد مفاصل"
+            },
+            "daily_energy": "کم"
+        },
+        "psychological_component": {
+            "personality_type": "ESFJ",
+            "cognitive_status": "فراموشی خفیف",
+            "dominant_emotion": "آرام",
+            "emotional_intelligence": "متوسط",
+            "iq": 98,
+            "attitude_to_aging": "پذیرش"
+        },
+        "social_component": {
+            "main_social_role": "بازنشسته",
+            "social_support": "خانواده پرجمعیت",
+            "social_participation": "فعال"
+        },
+        "economic_component": {
+            "income": "حقوق بازنشستگی",
+            "economic_decile": 5,
+            "housing": "خانه شخصی"
+        },
+        "cultural_value_component": {
+            "religion": "مسلمان شیعه",
+            "moral_traits": [
+                "سخت‌گیر",
+                "خودخواه"
+            ],
+            "religiosity_level": "زیاد",
+            "cultural_identity": {
+                "قومیت": "فارسی",
+                "زبان": "فارسی",
+                "ملیت": "ایرانی"
+            }
+        },
+        "contextual_component": {
+            "personal_experiences": [
+                "بازنشستگی طولانی",
+                "مراقبت از فرزند بیمار",
+                "از دست دادن همسر"
+            ],
+            "historical_events": [
+                "انقلاب",
+                "جنگ تحمیلی"
+            ],
+            "life_satisfaction": "راضی",
+            "meaning_and_purpose": "کمک به خانواده"
+        }
+    },
+    {
+        "id": 5,
+        "age": 90,
+        "gender": "F",
+        "biological_component": {
+            "general_health": "ضعیف",
+            "chronic_disease": "فشار خون",
+            "mobility": "روی ویلچر",
+            "senses": {
+                "بینایی": "ضعیف",
+                "شنوایی": "ضعیف",
+                "سایر": "دردهای مزمن"
+            },
+            "daily_energy": "کم"
+        },
+        "psychological_component": {
+            "personality_type": "INFJ",
+            "cognitive_status": "آلزایمر",
+            "dominant_emotion": "غمگین",
+            "emotional_intelligence": "کم",
+            "iq": 92,
+            "attitude_to_aging": "انکار"
+        },
+        "social_component": {
+            "main_social_role": "مادربزرگ",
+            "social_support": "خانواده پرجمعیت",
+            "social_participation": "غیر فعال"
+        },
+        "economic_component": {
+            "income": "فاقد درآمد",
+            "economic_decile": 2,
+            "housing": "خانه سالمندان"
+        },
+        "cultural_value_component": {
+            "religion": "مسلمان شیعه",
+            "moral_traits": [
+                "خودخواهی",
+                "بی‌اعتمادی",
+                "بی‌صبری"
+            ],
+            "religiosity_level": "زیاد",
+            "cultural_identity": {
+                "قومیت": "فارسی",
+                "زبان": "فارسی",
+                "ملیت": "ایرانی"
+            }
+        },
+        "contextual_component": {
+            "personal_experiences": [
+                "از دست دادن همسر",
+                "مراقبت از فرزند دور از کشور"
+            ],
+            "historical_events": [
+                "انقلاب",
+                "جنگ تحمیلی"
+            ],
+            "life_satisfaction": "بینابین",
+            "meaning_and_purpose": "انتظار مرگ"
+        }
+    }
+]
