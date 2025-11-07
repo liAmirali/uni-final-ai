@@ -17,8 +17,8 @@ Here’s the translation of your variables and values into **English**:
 ### 1. **Demographic Information**
 
 * **Age**: integer
-* **Gender**: ["Male", "Female", "Non-binary", "Other"]
-* **Marital Status**: ["Single", "Married", "Widowed", "Divorced", "Separated"]
+* **Gender**: ["Male", "Female"]
+* **Marital Status**: ["Single", "Married", "Widowed", "Divorced"]
 * **Children**: number or description (e.g., "None", "1", "2-3", "4+")
 * **Living Situation**: ["Living with Family", "Living Alone", "Shared Housing"]
 
