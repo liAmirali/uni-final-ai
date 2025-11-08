@@ -12,94 +12,96 @@ Rules:
 - Do not omit any variable.
 
 Variable definitions and accepted values:
+Here’s the translation of your variables and values into **English**:
 
-1. Biological Component (مولفه زیستی)
-- General Health (سلامت عمومی): ["خوب", "متوسط", "ضعیف"]
-- Chronic Disease (بیماری مزمن): [None, "فشار خون بالا", "بیماری‌های قلبی و عروقی", "دیابت نوع ۲", "آرتروز و درد مفاصل", "پوکی استخوان", "آلزایمر و زوال عقل", "بیماری مزمن کلیه", "بیماری انسدادی مزمن ریه", "افسردگی و اضطراب مزمن", "مشکلات بینایی و شنوایی", "نارسایی مزمن کبد", "پارکینسون", "اختلالات خواب مزمن", "مشکلات گوارشی مزمن"]
-- Mobility (توانایی حرکتی): ["مستقل", "با عصا یا واکر", "روی ویلچر", "وابسته"]
-- Senses (وضعیت حواس): {"بینایی": "خوب/ضعیف/...", "شنوایی": "خوب/ضعیف/..."}
-- Daily Energy (انرژی روزانه): ["بالا", "متوسط", "کم"]
+### 1. **Demographic Information**
 
-2. Psychological Component (مولفه روانشناختی)
-- Personality Type (ویژگی های شخصیتی): ["INTJ", "INTP", "ENTJ", "ENTP", "INFJ", "INFP", "ENFJ", "ENFP", "ISTJ", "ISFJ", "ESTJ", "ESFJ", "ISTP", "ISFP", "ESTP", "ESFP"]
-- Cognitive Status (وضعیت شناختی): ["حافظه سالم", "فراموشی خفیف", "آلزایمر"]
-- Dominant Emotion (هیجان غالب): ["شاد", "غمگین", "مضطرب", "آرام"]
-- Emotional Intelligence (میزان هوش هیجانی): ["کم", "متوسط", "زیاد"]
-- IQ (میزان هوش): ["کم", "متوسط", "زیاد"]
-- Attitude Toward Aging (نگرش به پیری): ["پذیرش", "مقاومت", "معناجویی", "انکار"]
+* **Age**: integer
+* **Gender**: ["Male", "Female"]
+* **Marital Status**: ["Single", "Married", "Widowed", "Divorced"]
+* **Children**: number or description (e.g., "None", "1", "2-3", "4+")
+* **Living Situation**: ["Living with Family", "Living Alone", "Shared Housing"]
 
-3. Social Component (مولفه اجتماعی)
-- Main Social Role (نقش اجتماعی اصلی): ["پدربزرگ", "مادربزرگ", "بازنشسته", "فعال اجتماعی"]
-- Social Support (حمایت اجتماعی): ["خانواده پرجمعیت", "تنها", "دوستان حامی", "حمایت دولتی"]
-- Social Participation (میزان مشارکت اجتماعی): ["فعال", "غیر فعال"]
+### 2. **Biological Component**
 
-4. Economic Component (مولفه اقتصادی)
-- Income (درآمد): ["مستقل", "حقوق بازنشستگی", "وابسته به فرزندان", "فاقد درآمد"]
-- Economic Decile (دهک اقتصادی): integer 1–10
-- Housing (مسکن): ["خانه شخصی", "اجاره‌ای", "خانه سالمندان"]
+* **General Health**: ["Good", "Average", "Poor"]
+* **Chronic Disease**: [None, "High Blood Pressure", "Cardiovascular Diseases", "Type 2 Diabetes", "Arthritis and Joint Pain", "Osteoporosis", "Alzheimer's and Dementia", "Chronic Kidney Disease", "Chronic Obstructive Pulmonary Disease", "Chronic Depression and Anxiety", "Vision and Hearing Problems", "Chronic Liver Failure", "Parkinson's", "Chronic Sleep Disorders", "Chronic Gastrointestinal Issues"]
+* **Mobility**: ["Independent", "With Cane or Walker", "In Wheelchair", "Dependent"]
+* **Hearing Senses**: ["Good", "Average", "Poor"]
+* **Vision Senses**: ["Good", "Average", "Poor"]
+* **Daily Energy**: ["High", "Average", "Low"]
 
-5. Cultural-Value Component (مولفه‌های ارزشی-فرهنگی)
-- Religion & Sect (نوع دین و مذهب): ["مسلمان شیعه", "مسلمان سنی", "مسیحی", "زرتشتی", "کلیمی"]
-- Internalized Moral Traits (صفات اخلاقی نهادینه شده): list of 2–4 traits (positive or negative)
-- Religiosity Level (سطح دینداری): ["کم", "متوسط", "زیاد"]
-- Cultural Identity (هویت فرهنگی): {"قومیت": "...", "زبان": "...", "ملیت": "ایرانی"}
+### 3. **Psychological Component**
 
-6. Contextual Component (مولفه‌های بافت‌محور)
-- Important Personal Experiences (تجارب مهم شخصی): ["مهاجرت", "موفقیت شغلی", "از دست دادن عزیزان", ...]
-- Major Historical-Social Events (وقایع مهم تاریخی-اجتماعی): ["جنگ", "انقلاب", "کرونا"]
-- Life Satisfaction (میزان رضایت از زندگی): ["راضی", "ناراضی", "بینابین"]
-- Meaning and Purpose in Old Age (معنا و هدف در سالمندی): ["کمک به خانواده", "فعالیت معنوی", "انتظار مرگ", "لذت‌جویی"]
+* **Personality Type**: ["INTJ", "INTP", "ENTJ", "ENTP", "INFJ", "INFP", "ENFJ", "ENFP", "ISTJ", "ISFJ", "ESTJ", "ESFJ", "ISTP", "ISFP", "ESTP", "ESFP"]
+* **Cognitive Status**: ["Healthy Memory", "Mild Forgetfulness", "Alzheimer's"]
+* **Dominant Emotion**: ["Happy", "Sad", "Anxious", "Calm"]
+* **Emotional Intelligence**: ["Low", "Average", "High"]
+* **IQ**: ["Low", "Average", "High"]
+* **Attitude Toward Aging**: ["Acceptance", "Resistance", "Meaning-Seeking", "Denial"]
 
-JSON Format (use English keys, Farsi values):
+### 4. **Social Component**
 
+* **Main Social Role**: ["Grandfather", "Grandmother", "Retired", "Social Activist"]
+* **Social Support**: ["Large Family", "Alone", "Supportive Friends", "Government Support"]
+* **Social Participation**: ["Active", "Inactive"]
+
+### 5. **Economic Component**
+
+* **Income**: ["Independent", "Retirement Pension", "Dependent on Children", "No Income"]
+* **Economic Decile**: integer 1–10
+* **Housing**: ["Own Home", "Rented", "Nursing Home"]
+
+### 6. **Cultural-Value Component**
+
+* **Religion & Sect**: ["Shia Muslim", "Sunni Muslim", "Christian", "Zoroastrian", "Jewish"]
+* **Internalized Moral Traits**: list of 2–4 traits (positive or negative)
+* **Religiosity Level**: ["Low", "Average", "High"]
+* **Ethnicity**: ["Persian", "Azeri", "Kurdish", "Lur", "Baloch", "Arab", "Turkmen", "Gilaki", "Mazandarani", "Qashqai"]
+* **Language**: ["Persian", "Azeri", "Kurdish", "Luri", "Balochi", "Arabic", "Turkmen", "Gilaki", "Mazandarani", "Qashqai"]
+
+### 7. **Contextual Component**
+
+* **Important Personal Experiences**: ["Immigration", "Career Success", "Loss of Loved Ones", "War Experience", "Economic Hardship", "Educational Achievement", "Battle with Serious Illness (e.g., Cancer, Chronic Disease)"]
+* **Life Satisfaction**: ["Satisfied", "Dissatisfied", "Neutral"]
+* **Meaning and Purpose in Old Age**: ["Helping Family", "Spiritual Activities", "Waiting for Death", "Pleasure-Seeking"]
+
+
+JSON Format:
 [
-  {
-    "id": <unique integer>,
-    "age": <integer 65–90>,
-    "gender": "M" یا "F",
-
-    "biological_component": {
-      "general_health": "...",
-      "chronic_disease": "...",
-      "mobility": "...",
-      "senses": {"بینایی": "خوب/ضعیف/...", "شنوایی": "خوب/ضعیف/..."},
-      "daily_energy": "..."
-    },
-
-    "psychological_component": {
-      "personality_type": "...",
-      "cognitive_status": "...",
-      "dominant_emotion": "...",
-      "emotional_intelligence": "...",
-      "iq": ...,
-      "attitude_to_aging": "..."
-    },
-
-    "social_component": {
-      "main_social_role": "...",
-      "social_support": "...",
-      "social_participation": "..."
-    },
-
-    "economic_component": {
-      "income": "...",
-      "economic_decile": ...,
-      "housing": "..."
-    },
-
-    "cultural_value_component": {
-      "religion": "...",
-      "moral_traits": ["...", "..."],
-      "religiosity_level": "...",
-      "cultural_identity": { "ethnicity": "...", "language": "...", "nationality": "ایرانی" }
-    },
-
-    "contextual_component": {
-      "personal_experiences": ["...", "..."],
-      "historical_events": ["..."],
-      "life_satisfaction": "...",
-      "meaning_and_purpose": "..."
-    }
-  }
+{
+  "age": "",
+  "gender": "",
+  "marital_status": "",
+  "children": "",
+  "living_situation": "",
+  "general_health": "",
+  "chronic_disease": "",
+  "mobility": "",
+  "hearing_senses": "",
+  "vision_senses": "",
+  "daily_energy": "",
+  "personality_type": "",
+  "cognitive_status": "",
+  "dominant_emotion": "",
+  "emotional_intelligence": "",
+  "iq": "",
+  "attitude_toward_aging": "",
+  "main_social_role": "",
+  "social_support": "",
+  "social_participation": "",
+  "income": "",
+  "economic_decile": "",
+  "housing": "",
+  "religion_and_sect": "",
+  "internalized_moral_traits": "",
+  "religiosity_level": "",
+  "ethnicity": "",
+  "language": "",
+  "important_personal_experiences": "",
+  "life_satisfaction": "",
+  "meaning_and_purpose_in_old_age": ""
+},
+...
 ]
 """
