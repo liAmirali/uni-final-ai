@@ -1,0 +1,42 @@
+.
+├── batch_input.jsonl
+├── config.py
+├── generators
+│   ├── __init__.py
+│   ├── interview_generator.py
+│   └── persona_generator.py
+├── __init__.py
+├── MIGRATION_GUIDE.md
+├── models
+│   ├── enums.py
+│   ├── __init__.py
+│   └── persona.py
+├── notebooks
+│   ├── data_generation.ipynb
+│   ├── persona_analyzer.ipynb
+│   ├── persona_generation.ipynb
+│   └── quick_start.ipynb
+├── _old
+│   ├── data_generation.py
+│   ├── persona_generation_prompt.py
+│   ├── persona_generation.py
+│   └── utils.py
+├── persona_analyzer.pdf
+├── personas2.json
+├── prompts
+│   ├── __init__.py
+│   ├── interview_prompts.py
+│   └── persona_prompts.py
+├── questions.py
+├── README.md
+├── scripts
+│   ├── generate_interviews.py
+│   └── generate_personas.py
+├── STRUCTURE.txt
+└── utils
+    ├── batch_utils.py
+    ├── __init__.py
+    ├── llm_client.py
+    └── token_utils.py
+
+8 directories, 32 files
