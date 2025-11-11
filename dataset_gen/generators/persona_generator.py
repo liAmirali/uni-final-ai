@@ -28,7 +28,14 @@ def generate_base_persona() -> (
     gender = random.choices(["Female", "Male"], weights=[53, 47])[0]
 
     # Age distribution (decaying distribution for elderly)
-    age = random.choices(range(65, 95), weights=[25, 20, 15, 15, 10, 10, 5, 3, 2, 1])[0]
+    age = random.choices(range(65, 95), weights=[
+        20, 20, 20, 20, 20, # 65-70
+        15, 15, 15, 15, 15, # 71-75
+        10, 10, 10, 10, 10, # 76-80
+        5, 5, 5, 5, 5,      # 81-85
+        3, 3, 3, 3, 3,      # 86-90
+        1, 1, 1, 1, 1       # 91-95
+    ])[0]
 
     # Marital status distribution
     marital_status = random.choices(

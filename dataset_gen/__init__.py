@@ -6,7 +6,7 @@ from Iranian elderly personas for spiritual health research.
 """
 
 __version__ = "2.0.0"
-__author__ = "Research Team"
+__author__ = "Amirali Lotfi"
 
 # Make key classes available at package level
 from .models import PersonaDetails, SUBJECTS
