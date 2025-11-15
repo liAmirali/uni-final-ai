@@ -11,7 +11,7 @@ from datetime import datetime
 
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from prompts.interview_prompts import format_system_prompt, format_answer_prompt
-from utils import LLMClient
+from utils import LLMClient, save_to_csv
 from config import DEFAULT_MODEL
 
 
@@ -187,7 +187,7 @@ class DatasetGenerator:
 
     def write_batch(self, batch_rows: List[Dict], model: str, persona_id: str) -> None:
         """
-        Write a batch of interactions to a JSONL file.
+        Write a batch of interactions to a CSV file.
 
         Args:
             batch_rows: List of interaction dictionaries
@@ -196,12 +196,10 @@ class DatasetGenerator:
         """
         batch_path = (
             self.output_dir
-            / f"synthetic_elder_fa_{self.session_prefix}_{model}_{persona_id}.jsonl"
+            / f"synthetic_elder_fa_{self.session_prefix}_{model}_{persona_id}.csv"
         )
         try:
-            with open(batch_path, "w", encoding="utf-8") as f:
-                for r in batch_rows:
-                    f.write(json.dumps(r, ensure_ascii=False) + "\n")
+            save_to_csv(batch_rows, str(batch_path))
             print(f"Saved {len(batch_rows)} rows to {batch_path}")
         except Exception as e:
             print(f"Write failed: {e}")

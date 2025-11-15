@@ -9,6 +9,7 @@ from openai import OpenAI
 from openai.types import Batch
 
 from config import DEFAULT_MODEL, TEMPERATURE, TOP_P, PRESENCE_PENALTY, FREQUENCY_PENALTY
+from .csv_utils import save_to_csv
 
 
 class BatchProcessor:
@@ -129,7 +130,7 @@ class BatchProcessor:
         prefix: str = "batch_output"
     ) -> Optional[str]:
         """
-        Save batch output to JSONL file.
+        Save batch output to CSV file.
         
         Args:
             batch: Batch object
@@ -140,7 +141,7 @@ class BatchProcessor:
             Path to saved file, or None if not completed
         """
         timestamp = time.time()
-        output_path = Path(output_dir) / f"{prefix}_{timestamp}.jsonl"
+        output_path = Path(output_dir) / f"{prefix}_{timestamp}.csv"
         
         # Ensure output directory exists
         Path(output_dir).mkdir(parents=True, exist_ok=True)
@@ -152,9 +153,25 @@ class BatchProcessor:
         
         parsed = self.parse_response(result)
         
-        with open(output_path, "w", encoding="utf-8") as f:
-            for p in parsed:
-                f.write(json.dumps(json.loads(p), ensure_ascii=False) + "\n")
+        # Parse JSON responses and collect all personas
+        all_personas = []
+        for p in parsed:
+            try:
+                personas = json.loads(p)
+                # Handle both single persona dict and list of personas
+                if isinstance(personas, list):
+                    all_personas.extend(personas)
+                else:
+                    all_personas.append(personas)
+            except json.JSONDecodeError:
+                print(f"Warning: Failed to parse response: {p[:100]}...")
+                continue
+        
+        if all_personas:
+            save_to_csv(all_personas, str(output_path))
+        else:
+            print("No valid personas found in batch output.")
+            return None
         
         return str(output_path)
 

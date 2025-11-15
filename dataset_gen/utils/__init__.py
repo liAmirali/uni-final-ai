@@ -9,6 +9,7 @@ from .token_utils import (
     estimate_persona_tokens,
     estimate_run_tokens
 )
+from .csv_utils import save_to_csv, flatten_dict_for_csv
 
 __all__ = [
     "LLMClient",
@@ -18,5 +19,7 @@ __all__ = [
     "num_tokens_from_string",
     "estimate_persona_tokens",
     "estimate_run_tokens",
+    "save_to_csv",
+    "flatten_dict_for_csv",
 ]
 

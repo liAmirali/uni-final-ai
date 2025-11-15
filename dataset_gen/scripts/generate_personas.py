@@ -11,7 +11,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from generators import PersonaGenerator
-from utils import LLMClient, create_openai_client, BatchProcessor
+from utils import LLMClient, create_openai_client, BatchProcessor, save_to_csv
 from config import DEFAULT_MODEL
 
 
@@ -20,7 +20,7 @@ def main():
     parser.add_argument("--count", type=int, default=10, help="Number of personas to generate")
     parser.add_argument("--model", type=str, default=DEFAULT_MODEL, help="Model to use")
     parser.add_argument("--with-stats", action="store_true", help="Use statistical base demographics")
-    parser.add_argument("--output", type=str, default="personas_output.json", help="Output file path")
+    parser.add_argument("--output", type=str, default="personas_output.csv", help="Output file path")
     parser.add_argument("--batch", action="store_true", help="Use batch API")
     parser.add_argument("--batch-size", type=int, default=10, help="Personas per batch request")
     
@@ -67,9 +67,8 @@ def main():
             personas = persona_generator.generate_full_personas(args.count, model=args.model)
         
         # Save output
-        output_path = Path(args.output)
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(personas, f, ensure_ascii=False, indent=2)
+        output_path = args.output
+        save_to_csv(personas, output_path)
         
         print(f"Generated {len(personas)} personas")
         print(f"Saved to: {output_path}")
