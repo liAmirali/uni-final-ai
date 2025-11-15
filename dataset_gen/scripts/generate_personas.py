@@ -22,7 +22,8 @@ def main():
     parser.add_argument("--count", type=int, default=10, help="Number of personas to generate")
     parser.add_argument("--model", type=str, default=DEFAULT_MODEL, help="Model to use")
     parser.add_argument("--with-stats", action="store_true", help="Use statistical base demographics")
-    parser.add_argument("--output", type=str, default="personas_output.csv", help="Output file path")
+    parser.add_argument("--output-dir", type=str, default="outputs/personas", help="Output directory for generated personas")
+    parser.add_argument("--output", type=str, default=None, help="Output file name (optional, auto-generated if not provided)")
     parser.add_argument("--batch", action="store_true", help="Use batch API")
     parser.add_argument("--batch-size", type=int, default=10, help="Personas per batch request")
     parser.add_argument("--log-level", type=str, default="INFO", choices=["DEBUG", "INFO", "WARNING", "ERROR"], help="Logging level")
@@ -35,13 +36,21 @@ def main():
     logger = setup_logging(log_level=args.log_level, log_file=log_file, script_name="generate_personas")
     
     log_section(logger, "PERSONA GENERATION SCRIPT STARTED", "INFO")
+    
+    # Create output directory with timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_base_dir = Path(args.output_dir)
+    output_dir = output_base_dir / timestamp
+    output_dir.mkdir(parents=True, exist_ok=True)
+    logger.info(f"Output directory: {output_dir.absolute()}")
+    
     logger.info(f"Configuration:")
     logger.info(f"  - Count: {args.count}")
     logger.info(f"  - Model: {args.model}")
     logger.info(f"  - With statistics: {args.with_stats}")
     logger.info(f"  - Batch mode: {args.batch}")
     logger.info(f"  - Batch size: {args.batch_size if args.batch else 'N/A'}")
-    logger.info(f"  - Output: {args.output}")
+    logger.info(f"  - Output directory: {output_dir}")
     logger.info(f"  - Log file: {log_file}")
     logger.debug(f"Full arguments: {vars(args)}")
     
@@ -93,6 +102,8 @@ def main():
         log_section(logger, "SYNCHRONOUS GENERATION MODE", "INFO")
         # Synchronous generation
         personas = []
+        base_personas = []
+        base_output_path = None
         
         try:
             if args.with_stats:
@@ -100,6 +111,17 @@ def main():
                 base_personas = [generate_base_persona() for _ in range(args.count)]
                 logger.info(f"Generated {len(base_personas)} base personas")
                 logger.debug(f"Sample base persona: {json.dumps(base_personas[0], indent=2, ensure_ascii=False)}")
+                
+                # Save base personas
+                base_output_file = f"base_personas_{timestamp}.csv"
+                base_output_path = output_dir / base_output_file
+                logger.info(f"Saving {len(base_personas)} base personas to {base_output_path.name}...")
+                try:
+                    save_to_csv(base_personas, str(base_output_path))
+                    logger.info(f"✓ Saved base personas to: {base_output_path}")
+                except Exception as e:
+                    logger.error(f"Failed to save base personas: {e}", exc_info=True)
+                    raise
                 
                 logger.info(f"Completing personas using model '{args.model}'...")
                 logger.info("Sending request to LLM...")
@@ -125,17 +147,22 @@ def main():
             logger.error(f"Failed to generate personas: {e}", exc_info=True)
             raise
         
-        # Save output
-        logger.info(f"Saving {len(personas)} personas to {args.output}...")
+        # Save final personas
+        final_output_file = f"final_personas_{timestamp}.csv"
+        final_output_path = output_dir / final_output_file
+        logger.info(f"Saving {len(personas)} final personas to {final_output_path.name}...")
         try:
-            save_to_csv(personas, args.output)
-            logger.info(f"Successfully saved personas to: {args.output}")
+            save_to_csv(personas, str(final_output_path))
+            logger.info(f"✓ Saved final personas to: {final_output_path}")
         except Exception as e:
-            logger.error(f"Failed to save personas: {e}", exc_info=True)
+            logger.error(f"Failed to save final personas: {e}", exc_info=True)
             raise
         
         logger.info(f"✓ Generated {len(personas)} personas")
-        logger.info(f"✓ Saved to: {args.output}")
+        logger.info(f"✓ Output directory: {output_dir.absolute()}")
+        if args.with_stats and base_personas and base_output_path:
+            logger.info(f"✓ Base personas saved to: {base_output_path.name}")
+        logger.info(f"✓ Final personas saved to: {final_output_path.name}")
     
     log_section(logger, "SCRIPT COMPLETED SUCCESSFULLY", "INFO")
 

@@ -13,6 +13,7 @@ from .models import PersonaDetails, SUBJECTS
 from .generators import PersonaGenerator, InterviewGenerator, generate_base_persona
 from .utils import LLMClient, create_openai_client, BatchProcessor
 from .questions import INTERVIEW_QUESTIONS
+from .constants import BASE_PERSONA_FIELDS
 
 __all__ = [
     "PersonaDetails",
@@ -24,5 +25,6 @@ __all__ = [
     "create_openai_client",
     "BatchProcessor",
     "INTERVIEW_QUESTIONS",
+    "BASE_PERSONA_FIELDS",
 ]
 

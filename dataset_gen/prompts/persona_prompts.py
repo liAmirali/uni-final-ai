@@ -4,6 +4,9 @@ Prompts for persona generation.
 import json
 from typing import List, Dict
 
+# Import base persona fields to ensure consistency
+from constants import BASE_PERSONA_FIELDS
+
 
 PERSONA_GENERATION_PROMPT = """
 You must generate a set of fictional but realistic Iranian elderly personas that represent cultural, geographical, and social diversity in Iran.
@@ -113,10 +116,13 @@ JSON Format:
 """
 
 
-CONSTRAINED_PERSONA_PROMPT_TEMPLATE = """You must complete the following Iranian elderly persona(s) by filling in the missing fields.
+# Generate field list dynamically from constants
+_BASE_FIELDS_LIST = ", ".join(sorted(BASE_PERSONA_FIELDS))
+
+CONSTRAINED_PERSONA_PROMPT_TEMPLATE = f"""You must complete the following Iranian elderly persona(s) by filling in the missing fields.
 
 Rules:
-- The demographic fields (age, gender, marital_status, children, living_situation, ethnicity, language, religion_and_sect) are already provided. DO NOT change them.
+- The demographic fields ({_BASE_FIELDS_LIST}) are already provided. DO NOT change them.
 - Fill in all the remaining fields with realistic values that are consistent with the provided demographic information.
 - Ensure diversity in the values you assign, but maintain realism and internal consistency.
 - Personas should reflect cultural and social realities of Iran.
@@ -160,7 +166,7 @@ Fields to fill in:
 * **Meaning and Purpose in Old Age**: ["Helping Family", "Spiritual Activities", "Waiting for Death", "Pleasure-Seeking"]
 
 Base personas to complete:
-{base_personas}
+{{base_personas}}
 """
 
 
@@ -175,5 +181,6 @@ def create_constrained_persona_prompt(base_personas: List[Dict]) -> str:
         Formatted prompt string
     """
     personas_str = json.dumps(base_personas, indent=2, ensure_ascii=False)
-    return CONSTRAINED_PERSONA_PROMPT_TEMPLATE.format(base_personas=personas_str)
+    # Format the template: first replace base_personas, then it's already an f-string for _BASE_FIELDS_LIST
+    return CONSTRAINED_PERSONA_PROMPT_TEMPLATE.replace("{base_personas}", personas_str)
 
