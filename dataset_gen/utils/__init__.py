@@ -10,6 +10,7 @@ from .token_utils import (
     estimate_run_tokens
 )
 from .csv_utils import save_to_csv, flatten_dict_for_csv
+from .model_params import build_generation_params, get_supported_params, add_model_capabilities
 
 __all__ = [
     "LLMClient",
@@ -21,5 +22,8 @@ __all__ = [
     "estimate_run_tokens",
     "save_to_csv",
     "flatten_dict_for_csv",
+    "build_generation_params",
+    "get_supported_params",
+    "add_model_capabilities",
 ]
 

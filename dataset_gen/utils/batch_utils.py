@@ -10,6 +10,7 @@ from openai.types import Batch
 
 from config import DEFAULT_MODEL, TEMPERATURE, TOP_P, PRESENCE_PENALTY, FREQUENCY_PENALTY
 from .csv_utils import save_to_csv
+from .model_params import build_generation_params
 
 
 class BatchProcessor:
@@ -44,20 +45,28 @@ class BatchProcessor:
             Batch object with job information
         """
         # Step 1: Prepare the batch input file
+        # Build parameters once for all requests (same model)
+        generation_params = build_generation_params(
+            model=model,
+            temperature=TEMPERATURE,
+            top_p=TOP_P,
+            presence_penalty=PRESENCE_PENALTY,
+            frequency_penalty=FREQUENCY_PENALTY
+        )
+        
         with open(batch_file_path, "w", encoding="utf-8") as f:
             for i, messages in enumerate(messages_list):
+                body = {
+                    "model": model,
+                    "messages": messages,
+                    **generation_params
+                }
+                
                 batch_request = {
                     "custom_id": f"request-{i+1}",
                     "method": "POST",
                     "url": "/v1/chat/completions",
-                    "body": {
-                        "model": model,
-                        "messages": messages,
-                        "temperature": TEMPERATURE,
-                        "top_p": TOP_P,
-                        "presence_penalty": PRESENCE_PENALTY,
-                        "frequency_penalty": FREQUENCY_PENALTY
-                    }
+                    "body": body
                 }
                 f.write(json.dumps(batch_request, ensure_ascii=False) + "\n")
         

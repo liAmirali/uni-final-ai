@@ -20,6 +20,7 @@ from config import (
     PRESENCE_PENALTY,
     FREQUENCY_PENALTY
 )
+from .model_params import build_generation_params
 
 
 def create_openai_client(api_key: Optional[str] = None, base_url: Optional[str] = None) -> OpenAI:
@@ -125,20 +126,23 @@ class LLMClient:
         """
         payload = self._build_payload(messages)
         
-        generation_params = {
-            "model": model or DEFAULT_MODEL,
-            "messages": payload,
-            "temperature": kwargs.get("temperature", self.temperature),
-            "top_p": kwargs.get("top_p", self.top_p),
-        }
+        model_name = model or DEFAULT_MODEL
         
-        # Only add penalties if they're non-zero
-        if self.presence_penalty:
-            generation_params["presence_penalty"] = kwargs.get("presence_penalty", self.presence_penalty)
-        if self.frequency_penalty:
-            generation_params["frequency_penalty"] = kwargs.get("frequency_penalty", self.frequency_penalty)
+        # Build parameters based on model capabilities
+        generation_params = build_generation_params(
+            model=model_name,
+            temperature=kwargs.get("temperature", self.temperature),
+            top_p=kwargs.get("top_p", self.top_p),
+            presence_penalty=kwargs.get("presence_penalty", self.presence_penalty),
+            frequency_penalty=kwargs.get("frequency_penalty", self.frequency_penalty),
+            **{k: v for k, v in kwargs.items() if k not in ["temperature", "top_p", "presence_penalty", "frequency_penalty"]}
+        )
         
-        return self.client.chat.completions.create(**generation_params)
+        return self.client.chat.completions.create(
+            model=model_name,
+            messages=payload,
+            **generation_params
+        )
     
     def generate_simple(
         self,
@@ -157,17 +161,21 @@ class LLMClient:
         Returns:
             OpenAI completion response
         """
-        generation_params = {
-            "model": model or DEFAULT_MODEL,
-            "messages": messages,
-            "temperature": kwargs.get("temperature", self.temperature),
-            "top_p": kwargs.get("top_p", self.top_p),
-        }
+        model_name = model or DEFAULT_MODEL
         
-        if self.presence_penalty:
-            generation_params["presence_penalty"] = kwargs.get("presence_penalty", self.presence_penalty)
-        if self.frequency_penalty:
-            generation_params["frequency_penalty"] = kwargs.get("frequency_penalty", self.frequency_penalty)
+        # Build parameters based on model capabilities
+        generation_params = build_generation_params(
+            model=model_name,
+            temperature=kwargs.get("temperature", self.temperature),
+            top_p=kwargs.get("top_p", self.top_p),
+            presence_penalty=kwargs.get("presence_penalty", self.presence_penalty),
+            frequency_penalty=kwargs.get("frequency_penalty", self.frequency_penalty),
+            **{k: v for k, v in kwargs.items() if k not in ["temperature", "top_p", "presence_penalty", "frequency_penalty"]}
+        )
         
-        return self.client.chat.completions.create(**generation_params)
+        return self.client.chat.completions.create(
+            model=model_name,
+            messages=messages,  # type: ignore[arg-type]
+            **generation_params
+        )
 

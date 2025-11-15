@@ -3,11 +3,16 @@ Persona generation logic with statistical distributions.
 """
 
 import random
+import json
+import logging
 from typing import List, Dict, Optional
 
 from prompts import PERSONA_GENERATION_PROMPT, create_constrained_persona_prompt
 from utils import LLMClient, BatchProcessor
 from config import DEFAULT_MODEL, SEED
+
+# Get logger for this module
+logger = logging.getLogger(__name__)
 
 # Set seed for reproducibility
 random.seed(SEED)
@@ -132,6 +137,9 @@ class PersonaGenerator:
         Returns:
             List of persona dictionaries
         """
+        model_name = model or DEFAULT_MODEL
+        logger.info(f"Generating {count} full persona(s) using model '{model_name}'")
+        
         messages = [
             {"role": "system", "content": PERSONA_GENERATION_PROMPT},
             {
@@ -140,13 +148,23 @@ class PersonaGenerator:
             },
         ]
 
+        logger.debug(f"Sending request to model '{model_name}'...")
         response = self.llm_client.generate_simple(messages, model=model)
         content = response.choices[0].message.content
+        
+        logger.debug(f"Received response from '{model_name}' ({len(content)} characters)")
+        logger.debug(f"Response preview: {content[:200]}...")
 
-        import json
-
-        personas = json.loads(content)
-        return personas
+        try:
+            personas = json.loads(content)
+            logger.info(f"Successfully parsed {len(personas)} persona(s)")
+            if personas:
+                logger.debug(f"Sample generated persona: {json.dumps(personas[0], indent=2, ensure_ascii=False)}")
+            return personas
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse JSON response: {e}")
+            logger.error(f"Response content: {content[:500]}")
+            raise
 
     def complete_personas(
         self, base_personas: List[Dict], model: Optional[str] = None
@@ -161,6 +179,10 @@ class PersonaGenerator:
         Returns:
             List of completed persona dictionaries
         """
+        model_name = model or DEFAULT_MODEL
+        logger.info(f"Completing {len(base_personas)} persona(s) using model '{model_name}'")
+        logger.debug(f"Base personas sample: {json.dumps(base_personas[0] if base_personas else {}, indent=2, ensure_ascii=False)}")
+        
         system_prompt = create_constrained_persona_prompt(base_personas)
         messages = [
             {"role": "system", "content": system_prompt},
@@ -170,13 +192,23 @@ class PersonaGenerator:
             },
         ]
 
+        logger.debug(f"Sending request to model '{model_name}'...")
         response = self.llm_client.generate_simple(messages, model=model)
         content = response.choices[0].message.content
+        
+        logger.debug(f"Received response from '{model_name}' ({len(content)} characters)")
+        logger.debug(f"Response preview: {content[:200]}...")
 
-        import json
-
-        personas = json.loads(content)
-        return personas
+        try:
+            personas = json.loads(content)
+            logger.info(f"Successfully parsed {len(personas)} completed persona(s)")
+            if personas:
+                logger.debug(f"Sample completed persona: {json.dumps(personas[0], indent=2, ensure_ascii=False)}")
+            return personas
+        except json.JSONDecodeError as e:
+            logger.error(f"Failed to parse JSON response: {e}")
+            logger.error(f"Response content: {content[:500]}")
+            raise
 
     def generate_with_stats(
         self, count: int, model: Optional[str] = None
