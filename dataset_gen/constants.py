@@ -17,4 +17,3 @@ BASE_PERSONA_FIELDS = {
     "language",
     "religion_and_sect",
 }
-

@@ -1,0 +1,21 @@
+age,gender,marital_status,children,living_situation,ethnicity,language,religion_and_sect
+65,Male,Married,2-3,Living Alone,Azeri,Azeri,Shia Muslim
+70,Female,Married,2-3,Living Alone,Persian,Persian,Shia Muslim
+73,Male,Married,4+,Shared Housing,Persian,Persian,Shia Muslim
+69,Male,Married,4+,Living with Family,Persian,Persian,Shia Muslim
+74,Male,Single,4+,Living Alone,Gilaki,Gilaki,Shia Muslim
+79,Male,Single,4+,Living Alone,Azeri,Azeri,Shia Muslim
+68,Female,Married,2-3,Living with Family,Persian,Persian,Shia Muslim
+69,Female,Married,2-3,Shared Housing,Azeri,Azeri,Shia Muslim
+77,Female,Married,2-3,Shared Housing,Azeri,Azeri,Shia Muslim
+80,Male,Single,2-3,Living with Family,Persian,Persian,Shia Muslim
+86,Female,Single,2-3,Living Alone,Persian,Persian,Shia Muslim
+68,Female,Married,4+,Living with Family,Azeri,Azeri,Shia Muslim
+67,Female,Widowed,4+,Living with Family,Persian,Persian,Shia Muslim
+78,Male,Married,1,Living with Family,Qashqai,Qashqai,Shia Muslim
+81,Male,Married,4+,Living Alone,Azeri,Azeri,Shia Muslim
+66,Male,Married,2-3,Shared Housing,Lur,Luri,Shia Muslim
+67,Female,Divorced,4+,Living with Family,Azeri,Azeri,Shia Muslim
+78,Female,Married,4+,Living Alone,Persian,Persian,Shia Muslim
+85,Female,Single,4+,Living with Family,Persian,Persian,Shia Muslim
+66,Male,Married,1,Living Alone,Kurdish,Kurdish,Sunni Muslim
